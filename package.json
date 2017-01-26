@@ -72,8 +72,5 @@
     "node": ">=0.10"
   },
   "preferGlobal": true,
-  "license": "WTFPL",
-  "publishConfig": {
-    "registry": "http://localhost:4873/"
-  }
+  "license": "WTFPL"
 }
