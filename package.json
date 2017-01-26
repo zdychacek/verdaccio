@@ -1,14 +1,10 @@
 {
-  "name": "verdaccio",
+  "name": "@szn/verdaccio",
   "version": "2.1.0",
   "description": "Private npm repository server",
   "author": {
-    "name": "Alex Kocharin",
-    "email": "alex@kocharin.ru"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/verdaccio/verdaccio"
+    "name": "Ondrej Zdych",
+    "email": "ondrej.zdych@firma.seznam.cz"
   },
   "main": "index.js",
   "bin": {
@@ -76,8 +72,8 @@
     "node": ">=0.10"
   },
   "preferGlobal": true,
+  "license": "WTFPL",
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
-  },
-  "license": "WTFPL"
+    "registry": "http://localhost:4873/"
+  }
 }
